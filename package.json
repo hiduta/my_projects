@@ -1,0 +1,15 @@
+{
+    "mainfest_version": 3,
+    "name": "password_generator",
+    "version": "1.0",
+    "description": "Random password generator with a lot of customization",
+    "main": "main.js",
+    "actions": {
+        "default_popup": "index.html",
+        "default_icon": "copy-vector-icon-paste-icons-600nw-2295599049.ico"
+    },
+    "keywords": ["password", "password_generator", "Random"],
+    "author": "Harry",
+    "license": "ISC",
+    "type": "commonjs"
+}
