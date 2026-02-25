@@ -38,7 +38,7 @@ button {
     border-radius: 100vh;
     font-size: larger;
     color: #F7F8FD;
-    animation: bor none linear 2000ms;
+    animation: bor infinite linear 2000ms;
 }
 
 @keyframes bor {
@@ -126,4 +126,5 @@ img {
     background-color: transparent;
 
 }
+
 
