@@ -88,9 +88,31 @@ document.getElementById("leng-label").addEventListener('wheel', function(event) 
     }else if (val > 0) {
         lengp.stepDown()
     }
+    document.getElementById("leng-range").value = lengp.value
 })
 
 document.getElementById("leng-range").addEventListener("input", function(event) {
     event.preventDefault()
     lengp.value = this.value
+})
+
+lengp.addEventListener('wheel', () => {
+    document.getElementById("leng-range").value = lengp.value
+})
+
+
+pass1p.addEventListener('click', function() {
+    clickcopy(this)
+})
+
+pass2p.addEventListener('click', function() {
+    clickcopy(this)
+})
+
+document.getElementById("ico-1").addEventListener('click', function() {
+    clickcopy(this)
+})
+
+document.getElementById("ico-2").addEventListener('click', function() {
+    clickcopy(this)
 })
